@@ -1,0 +1,44 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "PoseAtlas",
+      "hasCanvas": true,
+      "bodyTextLen": 627,
+      "bodyTextHash": "6952990ca03e458794ede0d6e576a6bc9b82e4514d0aaf4e36be67918f80a604",
+      "bodyTextPrefix": "PoseAtlas Pose view for docking results · white figures for publ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "PoseAtlas",
+      "hasCanvas": true,
+      "bodyTextLen": 375,
+      "bodyTextHash": "4fbcfd015e9b42b5a2391b9e51504bd55d656e6401240568b97165ea1c9804f3",
+      "bodyTextPrefix": "PoseAtlas Load PDBs Library Pose Residues Protein Bonds Pocket E",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND WARNING: this looks like a game/canvas app but src/lib/og/site.json is missing \"type\": \"x:game\". X uses og:type=x:game to present the unfurl as a game card — set it in /workspace/src/lib/og/site.json per /workspace/.grok/skills/og/SKILL.md. Do not invent x:type or overload twitter:card as the game signal.",
+    "BRAND WARNING: this looks like a game/canvas app but /workspace/public/x-banner.jpg is missing. Games need a 50:11 X feed card (1200×264 JPEG) at public/x-banner.jpg — open /workspace/.grok/skills/og/SKILL.md and finish the brand-asset pass."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text collapsed (1740 -> 627 chars)",
+    "mobile: body text changed (719 -> 375 chars, hash mismatch)"
+  ]
+}
